@@ -1,0 +1,20 @@
+{
+  "name": "johnrob1880/dashboard",
+  "authors": [
+    "John Robinson <johnrob1880@gmail.com>"
+  ],
+  "description": "Laravel Dashboard Package",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "admin-lte": "^2.4.2"
+  }
+}

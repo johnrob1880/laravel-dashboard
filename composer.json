@@ -1,0 +1,30 @@
+{
+    "name": "johnrob1880/laravel-dashboard",
+    "description": "Dashboard UI package for Laravel 5.4.*",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel", "dashboard", "admin"],
+    "authors": [
+        {
+            "name": "John Robinson",
+            "email": "johnrob1880@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Johnrob1880\\Dashboard\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Johnrob1880\\Dashboard\\DashboardServiceProvider"
+            ],
+            "aliases": {
+                "Dashboard": "Johnrob1880\\Dashboard\\DashboardFacade"
+            }
+        }
+    }
+}
