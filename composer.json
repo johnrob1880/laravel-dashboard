@@ -23,7 +23,7 @@
                 "Johnrob1880\\Dashboard\\DashboardServiceProvider"
             ],
             "aliases": {
-                "Dashboard": "Johnrob1880\\Dashboard\\DashboardFacade"
+                "Dashboard": "Johnrob1880\\Dashboard\\Facades\\DashboardFacade"
             }
         }
     }
